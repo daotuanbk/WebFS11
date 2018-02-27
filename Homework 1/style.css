@@ -1,0 +1,139 @@
+.container {
+
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+#header {
+    background-image: url("https://i.imgur.com/48hTl30.png");
+    color: white;
+    padding-left: 30px;
+}
+
+#header-right {
+    width: 500px;
+    height: auto;
+}
+
+#content {
+    background-color: #252627;
+    color: white;
+    margin: 0px;
+}
+
+#skills {
+    margin: 0px;
+    margin-left: 90px;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 120px;
+    color: #08fdd8;
+    margin-bottom: 60px;
+}
+
+span {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    color: #7e7e7e;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 90px;
+    font-size: 30px;
+    color: 08fdd8;
+}
+
+.header {
+    margin-left: 90px;
+    margin-top: 30%;
+    font-size: 120px;
+    color: white;
+}
+
+.header:hover{
+    color: #08fdd8;
+}
+
+#info {
+    margin-left: 80px;
+    background-image: url("https://i.imgur.com/0fCndhc.png");
+    margin-bottom: 60px;
+}
+
+#moreinfo {
+    font-size: 55px;
+}
+
+.skills {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#skills {
+    background-image: url("https://i.imgur.com/nccTmmk.png");
+}
+#html {
+    width: 100px;
+    height: 10px;
+    margin-left: 110px;
+}
+
+#js {
+    width: 100px;
+    height: 10px;
+    margin-left: 120px;
+}
+
+#java {
+    width: 200px;
+    height: 10px;
+    margin-left: 199px;
+}
+
+#ai {
+    width: 250px;
+    height: 10px;
+    margin-left: 119px;
+}
+
+#pts {
+    width: 250px;
+    height: 10px;
+    margin-left: 105px;
+}
+
+#xd {
+    width: 50px;
+    height: 10px;
+    
+}
+
+#activities {
+    margin-left: 90px;
+    margin-bottom: 90px;
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+#contact2 {
+    text-align: right;
+}
+
+#contact1, #contact2 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#contact {
+    background-color: #212121;
+}
