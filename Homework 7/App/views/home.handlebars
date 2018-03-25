@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        
+    
+        .main p{
+            padding-top: 5%;
+            font-size: 30px;   
+        }
+        .vote{
+            padding-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="main">
+            <h2>Question</h2>
+            <p> {{questionContent.content}} </p>
+            <div class="row vote">
+                <div class="col-xs-6">
+                    <a href="/vote/{{questionContent.id}}/no"><button class="btn btn-danger"><span class="glyphicon glyphicon-thumbs-down"></span> Sai / Không / Trái </button></a>
+                    
+                </div>
+                 <div class="col-xs-6">
+                    <a href="/vote/{{questionContent.id}}/yes"><button class="btn btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span> Đúng / Có / Phải</button></a>
+                </div>
+            </div>
+            <a href="/question/info/{{questionContent.id}}"><div class="btn btn-default">Xem kết quả vote</div></a>
+            <a href="/question"><button class="btn btn-default">Câu hỏi khác</button></a>
+            
+        </div>
+    </div>
+
+</body>
+</html>
