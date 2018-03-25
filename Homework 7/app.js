@@ -1,7 +1,6 @@
 const express = require('express');
 const handlebars = require('express-handlebars');
 const bodyParser = require('body-parser');
-const Controller = require('./Controller');
 const askRouter = require('./router/askRouter');
 const questionRouter = require('./router/questionRouter');
 const voteRouter = require('./router/voteRouter');
@@ -18,8 +17,6 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: false}));
 app.engine('handlebars',handlebars({defaultLayout: 'main'}));
 app.set('view engine','handlebars');
-
-var data = [...Controller.readFileSync('data.json')];
 
 app.use('/',questionRouter);
 app.use('/ask',askRouter);
